@@ -110,3 +110,30 @@ for(let i = 0; i < bondFilms.length; i++){
 }
 console.log(newArr);
 
+let oddBonds = [];
+for(let i = 0; i < bondFilms.length; i++){
+    if (bondFilms[i].year % 2 != 0){
+        oddBonds[i] = bondFilms[i].year
+    }
+}
+console.log(oddBonds);
+
+
+
+
+
+
+let sum = 0;
+let grossToNumber;
+for(let i = 0; i < bondFilms.length; i++){
+    console.log(bondFilms[i].gross)
+    grossToNumber = parseInt(bondFilms[i].gross);
+    
+}
+console.log(grossToNumber);
+// console.log(bondFilms[1].gross)
+// for(let i = 0; i < bondFilms.length; i++){
+//     grossToNumber = bondFilms[i].gross.replace(" ", parseInt(bondFilms[i].gross));
+//     sum += grossToNumber;
+// }
+// console.log(sum);
