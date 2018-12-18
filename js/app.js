@@ -119,18 +119,15 @@ for(let i = 0; i < bondFilms.length; i++){
 console.log(oddBonds);
 
 
-
-
-
-
+// Need help with this one
 let sum = 0;
 let grossToNumber;
 for(let i = 0; i < bondFilms.length; i++){
     console.log(bondFilms[i].gross)
     grossToNumber = parseInt(bondFilms[i].gross);
-    
+    sum += grossToNumber;
 }
-console.log(grossToNumber);
+console.log(sum);
 // console.log(bondFilms[1].gross)
 // for(let i = 0; i < bondFilms.length; i++){
 //     grossToNumber = bondFilms[i].gross.replace(" ", parseInt(bondFilms[i].gross));
